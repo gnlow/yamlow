@@ -1,7 +1,4 @@
-# yamlow
-Use JSON/YAML as programming language
-```ts
-import type { Operator } from "https://denopkg.com/gnlow/yamlow@main/mod.ts"
+import type { Operator } from "./mod.ts"
 
 const operatorFuncs = {
     "==": (a: any, b: any) => a == b,
@@ -35,4 +32,3 @@ const e: Operator<Fs, any> = { // No error
         16
     ]
 }
-```
